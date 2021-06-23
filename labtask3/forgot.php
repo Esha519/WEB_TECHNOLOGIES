@@ -114,6 +114,6 @@ function test_input($data) {
 
   <input type="submit" name="submit" value="Submit">  
 
-           <p><a href="login1.php"> Forgot password </a> </p>
+           <p><a href="login1(1).php"> Goto login page </a> </p>
       </body>  
  </html>  
