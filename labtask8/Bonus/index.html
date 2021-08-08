@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link
+  
+    <title>My BookList App</title><br><br>
+  </head>
+  <body>
+    
+
+      <form > 
+           <label for="title">Book Name</label>
+          <input type="text" id="title" class="control" />
+        <br><br>
+
+          <label for="author">Author </label>
+          <input type="text" id="author" class="control" />
+        <br><br>
+
+          <label for="year">Publication Year</label>
+          <input type="text" id="year" class="control" />
+        <br><br>
+        <input type="submit" value="Add Book" class="btn" />
+      </form><br><br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Title.....</th>
+            <th>Author....</th>
+            <th>Year......</th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
